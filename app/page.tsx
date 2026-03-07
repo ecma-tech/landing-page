@@ -4,11 +4,11 @@ import { Services } from "@/components/services";
 import { TechStack } from "@/components/tech-stack";
 import { Process } from "@/components/process";
 import { WhyChoose } from "@/components/why-choose";
+import { Testimonials } from "@/components/testimonials";
 import { CTA } from "@/components/cta";
 import { Footer } from "@/components/footer";
 
 export default function Home() {
-  console.log("[v0] Home page rendering");
   return (
     <main className="min-h-screen bg-background">
       <Navbar />
@@ -17,6 +17,7 @@ export default function Home() {
       <TechStack />
       <Process />
       <WhyChoose />
+      <Testimonials />
       <CTA />
       <Footer />
     </main>
